@@ -14,6 +14,8 @@ URL:            https://crates.io/crates/quanta
 Source:         %{crates_source}
 # Automatically generated patch to strip dependencies and normalize metadata
 Patch:          quanta-fix-metadata-auto.diff
+# Manually created patch for downstream crate metadata changes
+Patch:          quanta-fix-metadata.diff
 
 BuildRequires:  cargo-rpm-macros >= 24
 
